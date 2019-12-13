@@ -1,0 +1,28 @@
+title: Stackbit Fresh Theme
+baseURL: /
+params:
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Shaswata Das
+    tagline: >-
+      Software Engineer, Hacker, Kernel enthusiast, Reverse Engineer, Free
+      Software supporter.
+    profile_img: >-
+      https://res.cloudinary.com/practicaldev/image/fetch/s--gU4YjDXU--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/209294/2edda9cd-9df6-4b93-9522-aff455ce03fd.jpeg
+    bg: dark
+    has_nav: true
+    has_social: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - text: Made with Stackbit
+        url: 'https://www.stackbit.com'
+        new_window: true
+      - text: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
